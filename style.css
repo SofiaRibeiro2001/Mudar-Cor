@@ -1,0 +1,16 @@
+body { /*o botão fique centralizado em qualquer tamanho do dispositivo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#botao{
+    background-color: #909090;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
